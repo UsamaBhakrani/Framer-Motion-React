@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Test from "./components/Test";
+import styled from "styled-components";
+
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <Test />
+    </>
+  );
+};
 
-export default App
+export default App;
